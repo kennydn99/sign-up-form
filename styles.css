@@ -1,15 +1,21 @@
+@font-face {
+    font-family: logo-font;
+    src: url(BewareOfTheDog-eo7e.ttf)format("truetype");
+}
+
 body {
     display: flex;
 }
+
 .container {
     display: flex;
     height: 100vh;
     
 }
+
 .sidebar {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     background-image: url(images/dog.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,13 +27,16 @@ body {
 .logo-container {
     display: flex;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 25%;
     align-items: center;
+    background-color: hsla(132, 6%, 83%, 50%);
 }
 
 .logo-container > span {
     font-size: 50px;
     padding: 12px;
+    font-family: logo-font;
+    text-align: center;
 }
 
 .logo-container > img {
@@ -55,4 +64,31 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 24px;
+}
+
+.header, legend {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.form-container {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 16px;
+}
+
+.form-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+fieldset {
+    border: 0;
+}
+
+input {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
