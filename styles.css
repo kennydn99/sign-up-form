@@ -1,0 +1,49 @@
+body {
+    display: flex;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    background-image: url(images/dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    align-items: center;
+}
+
+.logo-container > span {
+    font-size: 50px;
+    padding: 12px;
+}
+
+.attributes {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: baseline;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
