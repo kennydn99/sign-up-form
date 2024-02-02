@@ -96,3 +96,11 @@ input {
   margin: 0;
   box-sizing: border-box;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-around;
+}
