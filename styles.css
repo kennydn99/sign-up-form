@@ -104,3 +104,14 @@ ul {
     flex-direction: column;
     justify-content: space-around;
 }
+
+li {
+    display: flex;
+    gap: 10%;
+    float: left;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
