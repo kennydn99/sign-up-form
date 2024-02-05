@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: logo-font;
     src: url(BewareOfTheDog-eo7e.ttf)format("truetype");
@@ -138,3 +143,8 @@ button {
     margin-left: 5%;
 }
 
+input:focus {
+    outline: none;
+    border-color: #89CFF0;
+    box-shadow: 0 0 3px #89CFF0;
+}
