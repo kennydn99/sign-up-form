@@ -139,6 +139,11 @@ button {
     font-weight: 600;
 }
 
+button:hover {
+    background-color: white;
+    color: #aa7a4c;
+}
+
 .header, .footer, ul, legend {
     margin-left: 5%;
 }
