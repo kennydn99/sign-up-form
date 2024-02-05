@@ -153,3 +153,8 @@ input:focus {
     border-color: #89CFF0;
     box-shadow: 0 0 3px #89CFF0;
 }
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+    border-color: red;
+  }
