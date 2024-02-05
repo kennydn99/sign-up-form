@@ -155,7 +155,12 @@ input:focus {
     box-shadow: 0 0 3px #89CFF0;
 }
 
-input:invalid {
+input:invalid, .invalid {
     box-shadow: 0 0 5px 1px red;
     border-color: red;
+    outline: none;
+  }
+
+  .error{
+    color: red;
   }
